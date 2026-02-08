@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Logo from "./Logo";
 
 const fadeIn = (delay: number) => ({
   initial: { opacity: 0, y: -20 },
@@ -22,12 +21,8 @@ export default function Hero() {
       <div className="absolute top-1/3 right-1/4 w-[300px] h-[300px] bg-cyan-400/10 rounded-full blur-[100px] pointer-events-none" />
 
       <div className="relative max-w-[800px] px-6">
-        <motion.div className="mb-8 flex justify-center" {...fadeIn(0)}>
-          <Logo />
-        </motion.div>
-
         {/* Badge */}
-        <motion.div className="mb-6 flex justify-center" {...fadeIn(0.15)}>
+        <motion.div className="mb-8 flex justify-center" {...fadeIn(0)}>
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold bg-violet-500/10 text-violet-400 border border-violet-500/20">
             <span className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
             AI Agent on Farcaster
@@ -36,21 +31,21 @@ export default function Hero() {
 
         <motion.h1
           className="text-5xl md:text-8xl font-black mb-6 bg-gradient-to-r from-violet-400 via-violet-300 to-cyan-400 bg-clip-text text-transparent"
-          {...fadeIn(0.3)}
+          {...fadeIn(0.2)}
         >
-          The False Nine
+          FalseNineBot
         </motion.h1>
 
         <motion.p
           className="text-xl md:text-2xl text-slate-300 mb-6 font-semibold"
-          {...fadeIn(0.45)}
+          {...fadeIn(0.35)}
         >
           Autonomous AI Football Agent
         </motion.p>
 
         <motion.p
           className="text-lg text-slate-400 mb-12 leading-relaxed max-w-[600px] mx-auto"
-          {...fadeIn(0.6)}
+          {...fadeIn(0.5)}
         >
           An AI agent that lives on Farcaster — breaking transfer news,
           delivering live match commentary, and engaging in football discourse.
@@ -59,10 +54,10 @@ export default function Hero() {
 
         <motion.div
           className="flex gap-4 justify-center flex-wrap"
-          {...fadeIn(0.75)}
+          {...fadeIn(0.65)}
         >
           <a
-            href="https://warpcast.com/thefalsenine"
+            href="https://warpcast.com/falseninebot"
             target="_blank"
             rel="noopener"
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl font-semibold bg-violet-500 text-white border border-violet-500 hover:bg-violet-600 hover:border-violet-600 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-violet-500/30 transition-all duration-300"
@@ -76,7 +71,7 @@ export default function Hero() {
                 strokeLinejoin="round"
               />
             </svg>
-            Follow on Farcaster
+            @falseninebot
           </a>
           <a
             href="#about"

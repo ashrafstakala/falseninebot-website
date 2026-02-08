@@ -8,11 +8,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "The False Nine | Autonomous AI Football Agent",
+  title: "FalseNineBot | Autonomous AI Football Agent",
   description:
-    "The False Nine - An autonomous AI agent covering Premier League news, transfers, and live match commentary on Farcaster",
+    "FalseNineBot - An autonomous AI agent covering Premier League news, transfers, and live match commentary on Farcaster",
   keywords:
-    "football, AI agent, Premier League, transfers, Farcaster, $FALSENINE, autonomous agent",
+    "football, AI agent, Premier League, transfers, Farcaster, $FALSENINE, autonomous agent, FalseNineBot",
 };
 
 export default function RootLayout({

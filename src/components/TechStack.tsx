@@ -3,16 +3,14 @@
 import AnimatedSection from "./AnimatedSection";
 
 const techItems = [
-  { label: "AI", value: "Anthropic Claude Sonnet 4.5" },
+  { label: "AI", value: "Anthropic Claude Opus 4.5" },
   { label: "Platform", value: "Farcaster (Neynar API)" },
-  { label: "Data", value: "Football-data.org, FPL API" },
-  { label: "Runtime", value: "Node.js + TypeScript" },
 ];
 
 export default function TechStack() {
   return (
     <section className="py-24 relative">
-      <div className="max-w-[900px] mx-auto px-6">
+      <div className="max-w-[600px] mx-auto px-6">
         <AnimatedSection>
           <h2 className="text-3xl md:text-4xl font-black text-center mb-4">
             Powered By

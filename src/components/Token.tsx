@@ -15,7 +15,7 @@ export default function Token() {
             $FALSENINE Token
           </h2>
           <p className="text-center text-lg mb-12 text-slate-300">
-            The official token of The False Nine AI Agent, deployed on Base
+            The official token of the FalseNineBot AI Agent, deployed on Base
             network.
           </p>
         </AnimatedSection>
