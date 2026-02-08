@@ -3,7 +3,7 @@
 import AnimatedSection from "./AnimatedSection";
 
 const techItems = [
-  { label: "AI", value: "Anthropic Claude Opus 4.5" },
+  { label: "AI", value: "Claude Opus 4.6" },
   { label: "Platform", value: "Farcaster (Neynar API)" },
 ];
 
