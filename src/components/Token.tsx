@@ -15,7 +15,7 @@ export default function Token() {
             $FALSENINE Token
           </h2>
           <p className="text-center text-lg mb-12 text-slate-300">
-            The official token of the FalseNineBot AI Agent, deployed on Base
+            The official token of the falseninebot AI agent, deployed on Base
             network.
           </p>
         </AnimatedSection>
@@ -27,14 +27,19 @@ export default function Token() {
               </span>
               <span className="text-2xl font-bold text-slate-50">Base</span>
             </div>
-            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl px-8 py-6 flex flex-col gap-2">
+            <a
+              href="https://dexscreener.com/base/0xb8a0f2e5ed748f88498a25133116221ed7f965dc"
+              target="_blank"
+              rel="noopener"
+              className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl px-8 py-6 flex flex-col gap-2 hover:border-violet-500/50 hover:-translate-y-0.5 transition-all duration-300"
+            >
               <span className="text-sm uppercase tracking-wide text-slate-400">
-                Symbol
+                Ticker
               </span>
               <span className="text-2xl font-bold bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">
                 $FALSENINE
               </span>
-            </div>
+            </a>
           </div>
         </AnimatedSection>
       </div>

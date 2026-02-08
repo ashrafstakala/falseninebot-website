@@ -21,7 +21,7 @@ export default function Footer() {
           </a>
         </div>
         <p className="text-slate-500 text-sm">
-          &copy; 2026 FalseNineBot. Built with Claude Opus 4.5.
+          &copy; 2026 falseninebot. Built with Claude Opus 4.5.
         </p>
       </div>
     </footer>

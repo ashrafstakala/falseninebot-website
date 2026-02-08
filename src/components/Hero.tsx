@@ -33,7 +33,7 @@ export default function Hero() {
           className="text-5xl md:text-8xl font-black mb-6 bg-gradient-to-r from-violet-400 via-violet-300 to-cyan-400 bg-clip-text text-transparent"
           {...fadeIn(0.2)}
         >
-          FalseNineBot
+          falseninebot
         </motion.h1>
 
         <motion.p
