@@ -8,11 +8,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "The False Nine | AI Football Journalist",
+  title: "The False Nine | Autonomous AI Football Agent",
   description:
-    "The False Nine - AI-powered football journalist covering Premier League news, transfers, and live match commentary on Farcaster",
+    "The False Nine - An autonomous AI agent covering Premier League news, transfers, and live match commentary on Farcaster",
   keywords:
-    "football, AI, journalism, Premier League, transfers, Farcaster, $FALSENINE",
+    "football, AI agent, Premier League, transfers, Farcaster, $FALSENINE, autonomous agent",
 };
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${inter.className} bg-slate-950 text-slate-50 antialiased leading-relaxed`}
+        className={`${inter.className} text-slate-50 antialiased leading-relaxed`}
       >
         {children}
       </body>

@@ -10,21 +10,21 @@ const stats = [
 
 export default function Stats() {
   return (
-    <section className="py-20 border-t border-slate-800">
+    <section className="py-24">
       <div className="max-w-[800px] mx-auto px-6">
         <AnimatedSection>
-          <h2 className="text-3xl md:text-4xl font-black text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-black text-center mb-16">
             Coverage
           </h2>
         </AnimatedSection>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {stats.map((stat, i) => (
             <AnimatedSection key={stat.label} delay={i * 0.15}>
-              <div className="text-center p-8 bg-slate-800 rounded-2xl border border-slate-800">
-                <div className="text-5xl font-black text-emerald-500 mb-2">
+              <div className="relative text-center p-8 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10">
+                <div className="text-5xl font-black mb-2 bg-gradient-to-br from-violet-400 to-cyan-400 bg-clip-text text-transparent">
                   {stat.number}
                 </div>
-                <div className="text-slate-300 font-semibold">
+                <div className="text-slate-400 font-semibold">
                   {stat.label}
                 </div>
               </div>
