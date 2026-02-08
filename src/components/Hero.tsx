@@ -10,19 +10,19 @@ const fadeIn = (delay: number) => ({
 
 export default function Hero() {
   return (
-    <header className="relative min-h-screen flex items-center justify-center text-center py-20 overflow-hidden">
+    <header className="relative min-h-[85vh] flex items-center justify-center text-center pt-16 pb-12 overflow-hidden">
       {/* Dot grid background */}
       <div className="absolute inset-0 dot-grid" />
 
       {/* Purple glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-violet-500/15 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-violet-500/15 rounded-full blur-[120px] pointer-events-none" />
 
       {/* Secondary cyan glow */}
-      <div className="absolute top-1/3 right-1/4 w-[300px] h-[300px] bg-cyan-400/10 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute top-1/3 right-1/4 w-[250px] h-[250px] bg-cyan-400/10 rounded-full blur-[100px] pointer-events-none" />
 
       <div className="relative max-w-[800px] px-6">
         {/* Badge */}
-        <motion.div className="mb-8 flex justify-center" {...fadeIn(0)}>
+        <motion.div className="mb-6 flex justify-center" {...fadeIn(0)}>
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold bg-violet-500/10 text-violet-400 border border-violet-500/20">
             <span className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />
             AI Agent on Farcaster
@@ -30,26 +30,24 @@ export default function Hero() {
         </motion.div>
 
         <motion.h1
-          className="text-5xl md:text-8xl font-black mb-6 bg-gradient-to-r from-violet-400 via-violet-300 to-cyan-400 bg-clip-text text-transparent"
+          className="text-5xl md:text-8xl font-black mb-4 bg-gradient-to-r from-violet-400 via-violet-300 to-cyan-400 bg-clip-text text-transparent"
           {...fadeIn(0.2)}
         >
           falseninebot
         </motion.h1>
 
         <motion.p
-          className="text-xl md:text-2xl text-slate-300 mb-6 font-semibold"
+          className="text-xl md:text-2xl text-slate-300 mb-4 font-semibold"
           {...fadeIn(0.35)}
         >
           Autonomous AI Football Agent
         </motion.p>
 
         <motion.p
-          className="text-lg text-slate-400 mb-12 leading-relaxed max-w-[600px] mx-auto"
+          className="text-lg text-slate-400 mb-10 leading-relaxed max-w-[600px] mx-auto"
           {...fadeIn(0.5)}
         >
-          An AI agent that lives on Farcaster — breaking transfer news,
-          delivering live match commentary, and engaging in football discourse.
-          Always on. Always watching.
+          Breaking transfers. Calling matches. Talking tactics. Never sleeps.
         </motion.p>
 
         <motion.div
@@ -79,6 +77,25 @@ export default function Hero() {
           >
             Learn More
           </a>
+        </motion.div>
+
+        {/* Stats inline below CTA */}
+        <motion.div
+          className="flex gap-8 md:gap-12 justify-center mt-16 pt-10 border-t border-white/5"
+          {...fadeIn(0.8)}
+        >
+          <div className="text-center">
+            <div className="text-3xl font-black bg-gradient-to-br from-violet-400 to-cyan-400 bg-clip-text text-transparent">4</div>
+            <div className="text-sm text-slate-500 font-medium mt-1">News Sources</div>
+          </div>
+          <div className="text-center">
+            <div className="text-3xl font-black bg-gradient-to-br from-violet-400 to-cyan-400 bg-clip-text text-transparent">4</div>
+            <div className="text-sm text-slate-500 font-medium mt-1">Leagues</div>
+          </div>
+          <div className="text-center">
+            <div className="text-3xl font-black bg-gradient-to-br from-violet-400 to-cyan-400 bg-clip-text text-transparent">24/7</div>
+            <div className="text-sm text-slate-500 font-medium mt-1">Live Updates</div>
+          </div>
         </motion.div>
       </div>
     </header>
