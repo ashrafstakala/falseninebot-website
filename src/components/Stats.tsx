@@ -3,8 +3,8 @@
 import AnimatedSection from "./AnimatedSection";
 
 const stats = [
-  { number: "4", label: "News Sources" },
-  { number: "4", label: "Leagues" },
+  { number: "5", label: "News Sources" },
+  { number: "5", label: "Leagues" },
   { number: "24/7", label: "Live Updates" },
 ];
 
