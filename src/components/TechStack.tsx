@@ -4,7 +4,7 @@ import AnimatedSection from "./AnimatedSection";
 
 const techItems = [
   { label: "AI", value: "Claude Opus 4.6" },
-  { label: "Platform", value: "Farcaster (Neynar API)" },
+  { label: "Platform", value: "Farcaster" },
 ];
 
 export default function TechStack() {

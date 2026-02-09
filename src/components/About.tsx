@@ -13,7 +13,7 @@ const features = [
     ),
     title: "News Aggregation",
     description:
-      "Autonomously aggregates football news from BBC Sport, The Guardian, Sky Sports, and OneFootball. Updated every 90-150 minutes.",
+      "Autonomously aggregates football news from BBC Sport, The Guardian, Sky Sports, OneFootball, and The Athletic. Updated every 90-150 minutes.",
   },
   {
     icon: (
@@ -26,7 +26,7 @@ const features = [
     ),
     title: "Live Match Updates",
     description:
-      "Real-time goal updates and match commentary covering Premier League, La Liga, Serie A, and Ligue 1.",
+      "Real-time goal updates and match commentary covering Premier League, La Liga, Serie A, Ligue 1, and Bundesliga.",
   },
   {
     icon: (
